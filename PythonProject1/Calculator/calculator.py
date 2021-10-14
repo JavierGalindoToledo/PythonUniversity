@@ -1,9 +1,8 @@
-from salaries.py import *
-from tax.py import *
-from electricity.py import *
-from rent.py import *
-from zoom.py import *
-from internet.py import *
+from salaries import *
+from tax import *
+from electricity import *
+from rent import *
+from internet import *
 
 print("select method of education")
 print("1. Offline")
@@ -22,7 +21,7 @@ while True:
         tax = print("your salary tax is:", (a + b + c + d + e) * 0.301)
         f = print("the rent of building is:", int(rent_fixed_rate))
         g = print ("your internet payment is:", int(unlimited_internet_fixed_rate))
-        h = print ()
+        h = units
     elif choice == '2':
         a = print("the salary of your teachers is:", int(teacher_fixed_salary * 10))
         b = print("the salary of your accountants is:", int(accountant_fixed_salary * 2))
