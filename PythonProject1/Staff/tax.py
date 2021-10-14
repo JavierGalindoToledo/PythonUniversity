@@ -1,1 +1,0 @@
-tax=int(salaries*0.301)
