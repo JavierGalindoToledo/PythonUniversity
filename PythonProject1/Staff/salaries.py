@@ -1,0 +1,5 @@
+teacher_fixed_salary=int(40,000)
+accountant_fixed_salary=int(50,000)
+system_administrator_fixed_salary=int(55,0000)
+segurity_guard_fixed_salary=int(20,000)
+methodologist_fixed_salary=int(45,000)
